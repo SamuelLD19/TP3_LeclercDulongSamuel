@@ -2,6 +2,8 @@
 //Bien qu'il serait préférable d'utiliser des partials, vous ne serez pas pénalisé si vous ne le faites pas :)
 @use "variables" as v;
 
+
+
 //Modification des variables
 
 @import "../../node_modules/bootstrap/scss/functions";
@@ -20,4 +22,3 @@ $custom-colors:(
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
-
