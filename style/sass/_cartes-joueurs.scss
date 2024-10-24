@@ -1,0 +1,8 @@
+.card-joueur {
+    transition: transform 0.3s ease;
+}
+
+.card-joueur:hover {
+    transform: scale(1.05); 
+}
+
